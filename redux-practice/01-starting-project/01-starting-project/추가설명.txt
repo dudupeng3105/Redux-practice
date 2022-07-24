@@ -1,0 +1,11 @@
+리듀서는 pure, side-effect free, synchronous
+펑션이어야함
+
+Input(Old State + Action) -> Output (New state)
+
+where should side-effects and async tasks be executed?
+
+1. inside the components (e.g. useEffect())
+2. inside the action creators
+
+이 코스에서 2가지 방법을 모두 다룬다.
